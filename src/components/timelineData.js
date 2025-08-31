@@ -1,38 +1,47 @@
+import b150team from '../assets/cars/b150-team.jpg';
+import b600team from '../assets/cars/b600-team.jpg';
+import award2010 from '../assets/about-us/2010-award.jpg';
+import endurance2012 from '../assets/about-us/2012-endurance.png';
+import monocoque2018 from '../assets/about-us/2018-monocoque.jpg';
+import fb2018 from '../assets/about-us/fb-2018.jpg';
+import ev2019 from '../assets/about-us/2019-ev.jpg';
+import endurance2024 from '../assets/about-us/2024-endurance.jpg';
+
 export default [
     {
         year: 2006,
         event: "Team founded",
-        image: "./src/assets/cars/b150-team.jpg"
+        image: b150team
     },
     {
         year: 2007,
         event: "First international competition; Formula Student Germany",
-        image: "./src/assets/cars/b600-team.jpg"
+        image: b600team
     },
     {
         year: 2010,
         event: "First award won",
-        image: "./src/assets/about-us/2010-award.jpg"
+        image: award2010
     },
     {
         year: 2012,
         event: "Completed first-ever endurance event",
-        image: "./src/assets/about-us/2012-endurance.png"
+        image: endurance2012
     },
     {
         year: 2018,
         event: "First monocoque chassis built",
-        image: "./src/assets/about-us/2018-monocoque.jpg"
+        image: monocoque2018
     },
     {
         year: 2018,
         event: "Placed first at Formula Bharat",
-        image: "./src/assets/about-us/fb-2018.jpg"
+        image: fb2018
     },
     {
         year: 2019,
         event: "Shift from combustion powertrain to electric powertrain",
-        image: "./src/assets/about-us/2019-ev.jpg"
+        image: ev2019
     },
     {
         year: 2021,
@@ -42,6 +51,6 @@ export default [
     {
         year: 2024,
         event: "First endurance event completed with electric powertrain",
-        image: "./src/assets/about-us/2024-endurance.jpg"
+        image: endurance2024
     },
 ];
