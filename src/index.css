@@ -13,56 +13,220 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+html,
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background: #000;
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.athena-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 16rem;
+  color: white;
+  pointer-events: none;
+  white-space: nowrap;
 }
 
-button {
+.inter-header {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.mrs-saint-delafield-regular {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navigation */
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.header-navbar .nav-link.active {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff !important;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.header-navbar {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
+  transition: background 0.6s ease;
+}
+
+.header-navbar.scrolled {
+  background: rgba(0, 90, 142, 0.7);
+  backdrop-filter: blur(6px);
+}
+
+.header-navbar .orion-logo {
+  .header-spacer {
+    height: 80px;
+    width: 100%;
+  }
+
+  width: 90px;
+  margin-right: 7px;
+  margin-left: 15px;
+}
+
+.header-navbar .kjsse-logo {
+  width: 130px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.header-navbar .somaiya-logo {
+  width: 53px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.header-navbar .nav-items {
+  margin: 0 10px;
+  font-family: "Inter", serif;
+  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer .orion-logo {
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 27px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+footer .social-logo {
+  width: 30px;
+}
+
+/* Home Page */
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.hero-image {
+  margin-bottom: 15px;
+}
+
+.justify-text p {
+  text-align: justify;
+}
+
+/* About Us Page */
+.about-us-carousel img {
+  width: 100%;
+}
+
+.about {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.timeline {
+  border-left: 4px solid rgb(0, 90, 142);
+  padding-left: 10px;
+}
+
+.timeline-date {
+  text-align: left;
+  font-size: 4rem !important;
+  font-weight: 100;
+}
+
+.timeline-event-img {
+  max-width: 100%;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  margin-bottom: 100px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.timeline-link-line {
+  position: absolute;
+  /* top: -65px; */
+  top: 31px;
+  left: -1px;
+  font-size: 4rem;
+  color: #005a8e;
+  line-height: 1;
+}
+
+/* Workshop Page */
+.workshop-image-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.car-card {
+  border-radius: 4px;
+}
+
+/* Sponsors Page */
+.sponsors-intro {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.sponsor-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-logo {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background: white;
+  height: auto;
+  display: block;
+}
+
+/* Media Page */
+.article-card {
+  border-radius: 4px;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
 }

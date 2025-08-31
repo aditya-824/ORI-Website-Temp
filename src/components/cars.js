@@ -1,0 +1,98 @@
+export default [
+    {
+        image: "/src/assets/cars/pegasus-2.jpg",
+        name: "Pegasus 2.0",
+        year: 2024,
+        team: "/src/assets/cars/pegasus-2-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/pegasus.jpg",
+        name: "Pegasus",
+        year: 2023,
+        team: "/src/assets/cars/pegasus-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/lemnos.jpg",
+        name: "Lemnos",
+        year: 2022,
+        team: "/src/assets/cars/lemnos-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/artemis.jpg",
+        name: "Artemis",
+        year: 2019,
+        team: "/src/assets/cars/artemis-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/bellatrix.png",
+        name: "Bellatrix",
+        year: 2018,
+        team: "/src/assets/cars/bellatrix-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/ori-17c.jpg",
+        name: "ORI 17C",
+        year: 2017,
+        team: "/src/assets/cars/ori-17c-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/rigel.jpg",
+        name: "Rigel",
+        year: 2016,
+        team: "/src/assets/cars/rigel-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/ori-2014.jpg",
+        name: "ORI 2014",
+        year: 2014,
+        team: "/src/assets/cars/ori-2014-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/arion-2.jpg",
+        name: "Arion 2.0",
+        year: 2013,
+        team: "/src/assets/cars/arion-2-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/arion.jpg",
+        name: "Arion",
+        year: 2012,
+        team: "/src/assets/cars/arion-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/aeton.jpg",
+        name: "Aeton",
+        year: 2011,
+        team: "/src/assets/cars/aeton-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/ori-2010.jpg",
+        name: "ORI 2010",
+        year: 2010,
+        team: "/src/assets/cars/ori-2010-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/stallion.jpg",
+        name: "Stallion",
+        year: 2009,
+        team: "/src/assets/cars/stallion-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/itana.jpg",
+        name: "Itana",
+        year: 2008,
+        team: "/src/assets/cars/itana-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/b600.jpg",
+        name: "B600",
+        year: 2007,
+        team: "/src/assets/cars/b600-team.jpg",
+    },
+    {
+        image: "/src/assets/cars/b150.jpg",
+        name: "B150",
+        year: 2006,
+        team: "/src/assets/cars/b150-team.jpg",
+    },
+]
