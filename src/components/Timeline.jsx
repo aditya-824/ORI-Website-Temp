@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image"
 
 function Timeline({ events, title }) {
     return (
@@ -14,7 +14,7 @@ function Timeline({ events, title }) {
                         <h4 className="timeline-event-title mb-2">{event.event}</h4>
                     </Col>
                     <Col>
-                        <img src={event.image} alt={event.event} className="timeline-event-img" />
+                        <Image src={event.image} alt={event.event} className="timeline-event-img" />
                     </Col>
                 </Row>
             ))}
