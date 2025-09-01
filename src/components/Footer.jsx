@@ -1,12 +1,11 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
 import linkedinLogo from "../assets/linkedin-logo.png";
 import instagramLogo from "../assets/instagram-logo.png";
 import facebookLogo from "../assets/facebook-logo.png";
 import xLogo from "../assets/x-logo.jpg";
 import orionLogo from "../assets/orion-logo.png";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Footer() {
     return (

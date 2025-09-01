@@ -1,8 +1,13 @@
+import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Timeline from "../components/Timeline";
 
 import bella from "../assets/about-us/bellatrix-on-court.jpg"
+import fb2024 from "../assets/about-us/fb-2024.jpg";
+import pegasusTwo from "../assets/pegasus2.0.jpg";
 import timelineData from "../components/timelineData.js";
 
 function AboutUs() {

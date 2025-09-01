@@ -1,13 +1,12 @@
+import orionLogo from "../assets/orion-logo.png"
+import kjsseLogo from "../assets/kjsce-logo.png"
+import kjsceLogo from "../assets/kjsce-logo.png"
+import somaiyaLogo from "../assets/somaiya-logo.svg"
 import { Link, Outlet } from "react-router-dom"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
-
-import orionLogo from "../assets/orion-logo.png"
-import kjsseLogo from "../assets/kjsce-logo.png"
-import kjsceLogo from "../assets/kjsce-logo.png"
-import somaiyaLogo from "../assets/somaiya-logo.svg"
 
 function Header() {
     // State to track if the user has scrolled past 100px
